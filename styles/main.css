@@ -1,0 +1,67 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 120px;
+}
+
+/* LADO ESQUERDO */
+#lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+#lado-esquerdo img {
+    width: 271px;
+    height: 229px;
+    margin-bottom: 25px;
+}
+
+#lado-esquerdo p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 490px;
+    text-align: justify;
+}
+
+#lado-esquerdo button {
+    width: 185px;
+    height: 54px;
+    border-radius: 31.5px;
+    background-color: #000;
+    border: 2px solid transparent;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 25px;
+    box-shadow: 0 10px 15px 0 rgba(5, 13, 29, 0.18);
+    transition: background-color .3s ease, border .3s ease;
+}
+
+#lado-esquerdo button i{
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    transition: transform .3s ease;
+}
+
+#lado-esquerdo button:hover {
+    background-color: #E60012;
+    border: 2px solid #fff;
+}
+
+
+#lado-esquerdo button:hover i{
+    transform: translateX(10px);
+}
+/* FIM LADO ESQUERDO */
+
+/* LADO DIREITO */
+#lado-direito img {
+    width: 592px;
+    height: 683px;
+}
